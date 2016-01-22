@@ -1,0 +1,65 @@
+
+/*-----------General--------------*/
+
+body {
+    margin-top: 50px;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+
+.container {
+    max-width: 75%;
+}
+
+/*-----------Header--------------*/
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 72px;
+}
+
+/*-----------Form--------------*/
+.container form {
+    text-align: center;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+select {
+    background: #fff;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: none;
+    height: 34px;
+
+} 
+
+input[type=submit] {
+    margin-left: 20px;
+    padding:5px 15px; 
+    background:#fff; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 1px;
+    border-radius: 1px; 
+}
+
+/*-----------List--------------*/
+.title {
+    background-color: #fff;   
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.item {
+    border-bottom: 1px solid #fff;
+}
