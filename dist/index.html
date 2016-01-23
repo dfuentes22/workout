@@ -29,7 +29,7 @@
         <!--  Add task form  -->
         <form ng-submit="" class="list-group-item">
             <label><h3> Body Part:</h3> </label>
-            <select name="priority" ng-model="priorityText">
+            <select name="bodyPart" ng-model="bodyPart">
                 <option value="Biceps">Biceps</option>
                 <option value="Back">Back</option>
                 <option value="Chest">Chest</option>
@@ -38,17 +38,39 @@
                 <option value="Shoulders">Shoulders</option>
                 <option value="Abs">Abs</option>
             </select>
-            <input type="submit" value="Workout">
+            <input type="submit" value="Go">
         </form>
             
         <br>
 
-        <div class="list">
+
+        <div class="container list">
             <!--  List of tasks  -->
-            <h4 class="list-group-item title">Body Part</h4>
-            <div ng-repeat="task in tasks" class="list-group-item item">
-            <label>Body Part</label>
-            <label> Workout info</label>
+            <h4 class="list-group-item title">Biceps</h4>
+            <div class="list-group-item item">
+                <div ng-repeat="task in tasks" class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12"><label>Inclined Hammer Curls</label></div>
+                        <br>
+                        <div class="col-sm-4"><p>Weight: Varied</p></div>
+                        <div class="col-sm-4"><p>Sets: 3 sets</p></div>
+                        <div class="col-sm-4"><p>Reps: 10 reps</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><label>EZ Bar Curl</label></div>
+                        <br>
+                        <div class="col-sm-4"><p>Weight: Varied</p></div>
+                        <div class="col-sm-4"><p>Sets: 3 sets</p></div>
+                        <div class="col-sm-4"><p>Reps: 10 reps</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><label>Zootman Curl</label></div>
+                        <br>
+                        <div class="col-sm-4"><p>Weight: Varied</p></div>
+                        <div class="col-sm-4"><p>Sets: 3 sets</p></div>
+                        <div class="col-sm-4"><p>Reps: 10 reps</p></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

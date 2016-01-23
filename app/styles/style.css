@@ -4,11 +4,11 @@
 body {
     margin-top: 50px;
     padding: 0;
-    background-color: cornflowerblue;
+    background-color: #e3e0cf;
 }
 
 .container {
-    max-width: 75%;
+    max-width: 100%;
 }
 
 /*-----------Header--------------*/
@@ -17,12 +17,17 @@ header {
 }
 
 header h1 {
+    color: #9fa8a3;
     font-size: 72px;
 }
 
 /*-----------Form--------------*/
 .container form {
     text-align: center;
+}
+
+form h3 {
+    color: #9fa8a3;
 }
 
 .list-group-item {
@@ -43,7 +48,8 @@ select {
 input[type=submit] {
     margin-left: 20px;
     padding:5px 15px; 
-    background:#fff; 
+    background:#b4c4ba;
+    color: #fff;
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 1px;
@@ -51,8 +57,19 @@ input[type=submit] {
 }
 
 /*-----------List--------------*/
+
+.row {
+    margin-top: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.list {
+    width: 60%;   
+}
 .title {
-    background-color: #fff;   
+    background-color: #b4c4ba;
+    color: #fff;
+    text-align: center;
 }
 
 .list-group-item:first-child {
@@ -61,5 +78,8 @@ input[type=submit] {
 }
 
 .item {
-    border-bottom: 1px solid #fff;
+    background-color: #b4c4ba;
+    color: #fff;
 }
+
+
