@@ -4,11 +4,18 @@
 body {
     margin-top: 50px;
     padding: 0;
-    background-color: #e3e0cf;
+    background-image: url("../assets/images/workout.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
     max-width: 100%;
+}
+
+.holder {
+    background-color: rgba(227, 224, 207, .95);
+    padding: 30px;
 }
 
 /*-----------Header--------------*/
