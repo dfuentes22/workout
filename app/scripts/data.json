@@ -24,6 +24,18 @@
         ] 
     },
     {
+        "bodypart":"Back & Lats",
+        "list":[
+            {"workout":"One-Arm Dumbbell Row ", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Seated Cable Row ", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Inverted Row ", "Equipment": "None", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Shotgun Row", "Equipment": "Cable", "sets":"3 sets", "time":"30 seconds" },
+            {"workout":"Seated Back Extension ", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Close-Grip Front Lat Pulldown  ", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"V-Bar Pulldown", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
+        ] 
+    },  
+    {
         "bodypart":"Chest",
         "list":[
             {"workout":"Dumbbell Bench Press", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"},
@@ -47,16 +59,41 @@
             {"workout":"Dumbbell Rear Lunge", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"}
         ] 
     },  
+    
     {
-        "bodypart":"Back & Lats",
+        "bodypart":"Calves",
         "list":[
-            {"workout":"One-Arm Dumbbell Row ", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
-            {"workout":"Seated Cable Row ", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
-            {"workout":"Inverted Row ", "Equipment": "None", "sets":"3 sets", "reps":"10 reps" },
-            {"workout":"Shotgun Row", "Equipment": "Cable", "sets":"3 sets", "time":"30 seconds" },
-            {"workout":"Seated Back Extension ", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
-            {"workout":"Close-Grip Front Lat Pulldown  ", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
-            {"workout":"V-Bar Pulldown", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Smith Machine Calf Raise", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Standing Calf Raises", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Seated Calf Raise", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Standing Dumbbell Calf Raise", "Equipment": "Dumbbell", "sets":"3 sets", "time":"30 seconds" },
+            {"workout":"Calf Press on Leg Press Machine", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Calf Press", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Standing Barbell Calf Raise", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps" },
+        ] 
+    },     
+    {
+        "bodypart":"Shoulders",
+        "list":[
+            {"workout":"Single-Arm Linear Jammer", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Side Laterals to Front Raise", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Dumbbell Lying One-Arm Rear Lateral Raise", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Dumbbell Should Press", "Equipment": "Dumbbell", "sets":"3 sets", "time":"30 seconds" },
+            {"workout":"Front Dumbbell Raise", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Power Partials", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Reverse Flyes", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
+        ] 
+    },  
+    {
+        "bodypart":"Traps",
+        "list":[
+            {"workout":"Smith Machine Shrug", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Leverage Shrug", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Calf-Machine Shoulder Shrug", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Dumbbell Shrug", "Equipment": "Dumbbell", "sets":"3 sets", "time":"30 seconds" },
+            {"workout":"KettleBell Sumo High Pull", "Equipment": "Kettlebell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Standing Dumbbell Upright Row", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Barbell Shrug", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps" },
         ] 
     },    
     {
