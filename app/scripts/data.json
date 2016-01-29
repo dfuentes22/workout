@@ -1,0 +1,68 @@
+[
+    {
+        "bodypart":"Biceps",
+        "list":[
+            {"workout":"Barbell Curl", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"EZ-Bar Curl", "Equipment": "E-Z Curl Bar", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Hammer Curls", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Inclined Hammer Curls", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Spider Curl", "Equipment": "E-Z Curl Bar", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Zootman Curl", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Concentration Curl", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"}
+        ] 
+    },     
+    {
+        "bodypart":"Triceps",
+        "list":[
+            {"workout":"Decline EZ Bar Triceps Extension", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Parallel Bar Dip", "Equipment": "Other", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Dumbbell Floor Press", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Close-Grip Barbell Bench Press", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Weighted Bench Dip", "Equipment": "Other", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Push-Ups - Close Triceps Position", "Equipment": "Other", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Seated Triceps Press", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"}
+        ] 
+    },
+    {
+        "bodypart":"Chest",
+        "list":[
+            {"workout":"Dumbbell Bench Press", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Incline Dumbbell Press", "Equipment": "Dubmbbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Barbell Bench Press - Medium Grip", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Low Cable Crossover", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Decline Dumbbell Flyes", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Dumbbell Flyes", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Barbell Incline Bench Press - Medium Grip", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps"}
+        ] 
+    },  
+    {
+        "bodypart":"Quadriceps",
+        "list":[
+            {"workout":"Narrow Stance Leg Press", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Kettlebell Pistol Squat", "Equipment": "Kettlebell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Barbell Walking Lunge", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Box Squat", "Equipment": "Barbell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Front Squats With Two Kettlebells ", "Equipment": "Kettlebell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Goblet Squat", "Equipment": "Kettlebell", "sets":"3 sets", "reps":"10 reps"},
+            {"workout":"Dumbbell Rear Lunge", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps"}
+        ] 
+    },  
+    {
+        "bodypart":"Back & Lats",
+        "list":[
+            {"workout":"One-Arm Dumbbell Row ", "Equipment": "Dumbbell", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Seated Cable Row ", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Inverted Row ", "Equipment": "None", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Shotgun Row", "Equipment": "Cable", "sets":"3 sets", "time":"30 seconds" },
+            {"workout":"Seated Back Extension ", "Equipment": "Machine", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"Close-Grip Front Lat Pulldown  ", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
+            {"workout":"V-Bar Pulldown", "Equipment": "Cable", "sets":"3 sets", "reps":"10 reps" },
+        ] 
+    },    
+    {
+        "bodypart":"Abs",
+        "list":[
+            {"workout":"Inclined Hammer Curls", "weight":"Varied", "sets":"3 sets", "reps":"10 reps" }
+        ] 
+    }
+]
