@@ -50,11 +50,11 @@
             <div class="list-group-item item">
                 <div ng-repeat="item in data" class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-12"><label>Inclined Hammer Curls</label></div>
+                        <div class="col-sm-12"><label>{{item.list[0].workout}}</label></div>
                         <br>
-                        <div class="col-sm-4"><p>{{item.bodypart}}</p></div>
-                        <div class="col-sm-4"><p>Sets: 3 sets</p></div>
-                        <div class="col-sm-4"><p>Reps: 10 reps</p></div>
+                        <div class="col-sm-4"><p>Equipment: {{item.list[0].Equipment}}</p></div>
+                        <div class="col-sm-4"><p>Sets: {{item.list[0].sets}}</p></div>
+                        <div class="col-sm-4"><p>Reps: {{item.list[0].reps}}</p></div>
                     </div>
                 </div>
             </div>
