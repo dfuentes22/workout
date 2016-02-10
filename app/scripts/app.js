@@ -4,9 +4,13 @@ var app = angular.module("app", ["ui.router"]);
 
 app.controller('List.controller', ['$scope', '$http', function($scope, $http) {
     console.log("test");
-  $http.get('/scripts/data.json').success(function(res){
-      $scope.data = res;
-  });
+    $http.get('/scripts/data.json').success(function(res){
+        $scope.data = res;
+            console.log($scope.data[0].list);
+    });
+    
+
+
 }]);
 
 /*blocJams.controller('Album.controller', ['$scope','SongPlayer', function($scope, SongPlayer){
