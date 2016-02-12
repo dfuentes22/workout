@@ -9,7 +9,12 @@ app.controller('List.controller', ['$scope', '$http', function($scope, $http) {
             console.log($scope.data[0].list);
     });
     
-
+    // Function to add new task
+    $scope.getBodyPart = function() {
+        var bodyPart = $scope.bodyPart;
+        console.log(bodyPart);
+    };
+    
 
 }]);
 
