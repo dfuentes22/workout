@@ -30,11 +30,13 @@
             <label><h3> Body Part:</h3> </label>
             <select name="bodyPart" ng-model="bodyPart">
                 <option value="Biceps">Biceps</option>
-                <option value="Back">Back</option>
-                <option value="Chest">Chest</option>
                 <option value="Triceps">Triceps</option>
-                <option value="Legs">Legs</option>
+                <option value="Back">Back & Lats</option>
+                <option value="Chest">Chest</option>  
+                <option value="Quads">Quadriceps</option>
+                <option value="Calves">Calves</option>
                 <option value="Shoulders">Shoulders</option>
+                <option value="Traps">Traps</option>
                 <option value="Abs">Abs</option>
             </select>
             <input type="submit" value="Go">
@@ -46,9 +48,9 @@
         <div class="container">
             <div class="list">
             <!--  List of tasks  -->
-            <h4 class="list-group-item title">{{data[0].bodypart}}</h4>
+            <h4 class="list-group-item title">{{bodyTitle}}</h4>
             <div class="list-group-item item">
-                <div ng-repeat="item in data[0].list" class="container-fluid">
+                <div ng-repeat="item in jozy" class="container-fluid">
                     <div class="row">
                         <div class="col-sm-12"><label>{{item.workout}}</label></div>
                         <br>
