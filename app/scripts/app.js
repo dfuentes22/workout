@@ -59,10 +59,3 @@ app.controller('List.controller', ['$scope', '$http', function($scope, $http) {
 
 
 }]);
-
-/*blocJams.controller('Album.controller', ['$scope','SongPlayer', function($scope, SongPlayer){
-    $scope.album = albumPicasso;
-    $scope.playSong = function(song) {
-        SongPlayer.setSong($scope.album, song);
-    };
-}]);*/
