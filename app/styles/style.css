@@ -50,17 +50,23 @@ select {
     border: none;
     height: 34px;
 
-} 
+}
 
 input[type=submit] {
     margin-left: 20px;
-    padding:5px 15px; 
+    padding:5px 15px;
     background:#b4c4ba;
     color: #fff;
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 1px;
-    border-radius: 1px; 
+    border-radius: 1px;
+}
+
+.btn {
+    text-align: center;
+    width: 100%;
+    color: #a3b3a9;
 }
 
 /*-----------List--------------*/
@@ -89,5 +95,3 @@ input[type=submit] {
     background-color: #b4c4ba;
     color: #fff;
 }
-
-

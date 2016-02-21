@@ -23,7 +23,7 @@
         <header>
         <h1>The Workout Mix</h1>
         </header>
-    
+
         <!--Page Items-->
         <!--  Add task form  -->
         <form class="form-primary" ng-submit="getBodyPart()" class="list-group-item">
@@ -32,7 +32,7 @@
                 <option value="Biceps">Biceps</option>
                 <option value="Triceps">Triceps</option>
                 <option value="Back">Back & Lats</option>
-                <option value="Chest">Chest</option>  
+                <option value="Chest">Chest</option>
                 <option value="Quads">Quadriceps</option>
                 <option value="Calves">Calves</option>
                 <option value="Shoulders">Shoulders</option>
@@ -41,7 +41,7 @@
             </select>
             <input type="submit" value="Go">
         </form>
-            
+
         <br>
 
 
@@ -50,7 +50,7 @@
             <!--  List of tasks  -->
             <h4 class="list-group-item title">{{bodyTitle}}</h4>
             <div class="list-group-item item">
-                <div ng-repeat="item in jozy | limitTo: 3" class="container-fluid">
+                <div ng-repeat="item in jozy | orderBy:random | limitTo: 3" class="container-fluid">
                     <div class="row">
                         <div class="col-sm-12"><label>{{item.workout}}</label></div>
                         <br>
@@ -60,8 +60,10 @@
                     </div>
                 </div>
             </div>
+            <a href="/"><button class="btn">Refresh</button></a>
             </div>
         </div>
+
     </div>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -74,4 +76,3 @@
     <script src="/scripts/app.js"></script>
 </body>
 </html>
-

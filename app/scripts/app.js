@@ -7,11 +7,11 @@ app.controller('List.controller', ['$scope', '$http', function($scope, $http) {
     $http.get('/scripts/data.json').success(function(res){
         $scope.data = res;
     });
-    
-    // Function to add new task
+
+    // Function to display list of workouts
     $scope.getBodyPart = function() {
         var bodyPart = $scope.bodyPart;
-        
+
         if(bodyPart === "Biceps"){
            $scope.jozy = $scope.data[0].list;
           $scope.bodyTitle = $scope.data[0].bodypart;
@@ -48,16 +48,21 @@ app.controller('List.controller', ['$scope', '$http', function($scope, $http) {
           $scope.jozy = $scope.data[8].list;
           $scope.bodyTitle = $scope.data[8].bodypart;
         }
-        
+
     };
-    
-    
+
+    // Function to randomize list
+    $scope.random = function() {
+    return Math.random();
+    };
+
+
 
 }]);
 
 /*blocJams.controller('Album.controller', ['$scope','SongPlayer', function($scope, SongPlayer){
     $scope.album = albumPicasso;
     $scope.playSong = function(song) {
-        SongPlayer.setSong($scope.album, song); 
-    };  
+        SongPlayer.setSong($scope.album, song);
+    };
 }]);*/
