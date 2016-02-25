@@ -26,7 +26,7 @@
 
         <!--Page Items-->
         <!--  Add task form  -->
-        <form class="form-primary" ng-submit="getBodyPart()" class="list-group-item">
+        <div class="form-primary"  class="list-group-item">
             <label><h3> Body Part:</h3> </label>
             <select name="bodyPart" ng-model="bodyPart">
                 <option value="Biceps">Biceps</option>
@@ -39,8 +39,8 @@
                 <option value="Traps">Traps</option>
                 <option value="Abs">Abs</option>
             </select>
-            <input type="submit" value="Go">
-        </form>
+            <input type="submit" ng-click="getBodyPart()" value="Go">
+        </div>
 
         <br>
 

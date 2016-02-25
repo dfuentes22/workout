@@ -10,9 +10,19 @@ app.controller('List.controller', ['$scope', '$http', function($scope, $http) {
 
     // Function to display list of workouts
     $scope.getBodyPart = function() {
-        var bodyPart = $scope.bodyPart;
+        //var bodyPart = $scope.bodyPart;
+      
+        //console.log($scope.data);
+      
+        //rework if statements
+        $scope.data.forEach(function(element) {
+          if ($scope.bodyPart === element.bodypart) {
+            $scope.jozy = element.list;
+            $scope.bodyTitle = element.bodypart;
+          }
+        });
 
-        if(bodyPart === "Biceps"){
+        /*if(bodyPart === "Biceps"){
            $scope.jozy = $scope.data[0].list;
           $scope.bodyTitle = $scope.data[0].bodypart;
         }
@@ -47,7 +57,7 @@ app.controller('List.controller', ['$scope', '$http', function($scope, $http) {
         else {
           $scope.jozy = $scope.data[8].list;
           $scope.bodyTitle = $scope.data[8].bodypart;
-        }
+        }*/
 
     };
 
