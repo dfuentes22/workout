@@ -99,7 +99,11 @@
     {
         "bodypart":"Abs",
         "list":[
-            {"workout":"Curnches", "Equipment":"Body", "sets":"3 sets", "reps":"10 reps" }
+            {"workout":"Crunches", "Equipment":"Body", "sets":"3 sets", "reps":"10 reps" }
+            {"workout":"Weighted Suitcase Crunch", "Equipment":"Medicine Ball", "sets":"3 sets", "reps":"10 reps" }
+            {"workout":"Bottoms Up", "Equipment":"Body", "sets":"3 sets", "reps":"10 reps" }
+            {"workout":"Landmine 180's", "Equipment":"Barbell", "sets":"3 sets", "reps":"10 reps" }
+            {"workout":"One-Arm High-Pulley Cable Side Bends", "Equipment":"Body", "sets":"3 sets", "reps":"10 reps" }
         ] 
     }
 ]
